@@ -1,0 +1,12 @@
+stages:
+  - deploy
+deploy_job:
+  stage: deploy
+  script:
+    - |
+      rsync -az -e "ssh -i ~/.ssh/runner" --exclude=".git/" --exclude=".gitlab-ci.yml" --delete ./ $webserver:$wwwpath/ittykeys.com
+      ssh -i ~/.ssh/runner $webserver "
+        rm -f $wwwpath/ittykeys.com/README.md
+        rm -f $wwwpath/ittykeys.com/LICENSE
+        echo \"\$(date +'%B %d %Y %I:%M %p')\" > $wwwpath/ittykeys.com/misc/last_updated.txt
+      "

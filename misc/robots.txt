@@ -1,0 +1,3 @@
+Sitemap: https://ittykeys.com/sitemap.xml
+User-agent: *
+Allow: /

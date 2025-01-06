@@ -1,0 +1,25 @@
+{
+  "short_name": "IttyKeys",
+  "name": "IttyKeys",
+  "icons": [
+    {
+      "src": "/img/logo.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#141414",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#E6E6E6",
+  "shortcuts": [
+    {
+      "name": "IttyKeys",
+      "short_name": "IttyKeys",
+      "description": "IttyKeys",
+      "url": "/",
+      "icons": [{ "src": "/img/logo.png", "sizes": "192x192" }]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # ittykeys.com
 
-![ittykeys logo](https://ittykeys.com/img/logo.svg)
+![ittykeys logo](https://ittykeys.com/img/logonob.png)
 
  ## IttyKeys website
 
