@@ -34,7 +34,7 @@
         return $response;
     }
     $api_baseurl = $_SERVER['NULLSTATE_URL'];
-    $url = $api_baseurl . "/api/visit?site_id=5";
+    $url = $api_baseurl . "/api/visit?site_id=18";
     $response = api_get($url);
     if ($response === false) {
         http_response_code(502);
