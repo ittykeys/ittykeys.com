@@ -7,6 +7,21 @@ body {
 } main, aside {
     flex-grow: 1;
     align-content: center;
+} #links {
+    display: flex;
+    gap: calc(var(--spacing)*2);
+    margin: calc(var(--spacing)*2);
+    justify-content: center;
+} #links img {
+    max-width: calc(var(--icon-size)*2);
+    height: auto;
+} #perl-ad-target a {
+    color: var(--text-focus);
+    text-decoration: underline;
+    text-underline-offset: 0.25em;
+    text-decoration-color: var(--white);
+} #perl-ad-target a:hover, #links a:hover {
+    opacity: 0.5;
 }
 #footnotes p {
     margin-top: var(--spacing);

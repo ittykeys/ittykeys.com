@@ -31,6 +31,7 @@ RewriteRule ^ads\.txt$ /misc/ads.txt [L]
 RewriteRule ^security\.txt$ /misc/security.txt [L]
 RewriteRule ^favicon\.ico$ /img/favicon.ico [L]
 RewriteRule ^sitemap\.xml$ /xml/sitemap.xml [L]
+RewriteRule ^nullstate$ /php/nullstate.php [L]
 
 <Files ~ "^.*\.([Hh][Tt][Aa])">
     order allow,deny
